@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6",
+        "noEmitOnError": true // não irá gerar arquivo js com erros.
+    },
+    // são os arquivos que o compilador irá ler na pasta 'app' e jogar na pasta 'dist/js'
+    "include": ["app/**/*"]
+}
