@@ -3,6 +3,8 @@ export class Negociacao {
     private _quantidade: number;
     private _valor: number;
 
+    public readonly teste: number;
+
     constructor(data: Date, quantidade: number, valor: number) {
         this._data = data;
         this._quantidade = quantidade;
