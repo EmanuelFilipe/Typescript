@@ -18,6 +18,7 @@ export class NegociacoesView extends View {
                                 <td>${item.quantidade}</td>
                                 <td>${item.valor}</td>
                             </tr>
+                            <script>alert('OI')</script>
                         `;
         })}
                 </tbody>
